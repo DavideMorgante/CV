@@ -1,0 +1,187 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2015 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\usepackage{ascii}
+
+% moderncv themes
+\moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{orange}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
+\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                 
+% if you are not using xelatex ou lualatex, replace by the encoding you are using
+
+
+% adjust the page margins
+\usepackage[scale=0.80]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Davide}{Morgante}
+%\title{Resumé title}                               % optional, remove / comment the line if not wanted
+\address{Via Giorgio Bonelli, 37}{00172}{Roma (RM), Italia}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+\phone[mobile]{+39~393 6306114}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+%\phone[fixed]{+2~(345)~678~901}
+%\phone[fax]{+3~(456)~789~012}
+\email{davide.morgante96@gmail.com}  % optional, remove / comment the line if not wanted
+%\homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
+\social[linkedin]{davide-morgante}                        % optional, remove / comment the line if not wanted
+%\social[twitter]{jdoe}                             % optional, remove / comment the line if not wanted
+%\social[github]{jdoe}                              % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+\photo[100pt][0.3pt]{picture.jpg}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% bibliography adjustements (only useful if you make citations in your resume, or print a list of publications using BibTeX)
+%   to show numerical labels in the bibliography (default is to show no labels)
+\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+%   to redefine the bibliography heading string ("Publications")
+%\renewcommand{\refname}{Articles}
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Education}
+\cventry{2021-}{PhD}{University of Milan}{Milan}{}{PhD Student under the supervision of prof. Antonio Amariti. My research interests are the theoretical aspects of Quantum Field Theories through supersymmetry techniques, geometric engineering in string/M-theory, categorical symmetries and higher-group structures.}
+\cventry{2019-2021}{M.Sc}{Sapienza University of Rome}{Rome}{\textit{110 with Honors}}{Master degree in theoretical high energy physics}
+\cventry{2016-2019}{B.Sc}{Sapienza University of Rome}{Rome}{\textit{110 with Honors}}{Bachelor degree in physics.}  % arguments 3 to 6 can be left empty
+
+\section{Bachelor Thesis}
+\cvitem{Title}{\emph{Semiclassical transition amplitudes. (original: Ampiezze semiclassiche di transizione.)}}
+\cvitem{Advisior}{Prof. Guido Martinelli}
+\cvitem{Short description}{In my bachelor thesis I analyzed the transition probability of a metastable state for a generic scalar field theory, in the semiclassical limit. In the thesis I also gave the theoretical basis upon which the transition probability was calculated, namely: Feynman path integral formulation, quantum tunneling and classical field theory arising from the collective excitation of a system with many degrees of freedom.}
+
+\section{Master Thesis}
+\cvitem{Title}{Unitarity triangle analysis and recent theoretical advancements on $\epsilon^\prime/\epsilon$}
+\cvitem{Advisor}{Prof. Guido Martinelli}
+\cvitem{Co-advisor}{Prof. Marco Nardecchia}
+\cvitem{Short description}{In my master thesis I worked on the UT analysis of the $\epsilon^\prime/\epsilon$ parameter in the $K\to 2\pi$ decay starting from the recent result from R.Abbott et al. (arXiv:2004.09440v2). The work of my thesis resulted in the publication of a related paper in the "\textit{Rendiconti Lincei}" journal.}
+
+
+\section{Experience}
+
+\cventry{2022}{Teaching Assistent}{University of Milan}{Milan}{}{I was a TA for the course of Mathematical Methods for Physics held in Unimi. My duties included extra tutoring classes, office hours and lectures.}
+\cventry{2022}{Teaching Assistent}{University of Milan}{Milan}{}{I held the course of introductory math for the freshman of the physics bachelor at the University of Milan.}
+\cventry{2023}{Teaching Assistent}{University of Milan}{Milan}{}{I was a TA for the course of Mathematical Methods for Physics held in Unimi. My duties included extra tutoring classes, office hours and lectures.}
+\cventry{1 May - 15 June 2023}{Visiting PhD}{SISSA}{Trieste}{}{I was a visiting PhD student at the International School for Advanced Studies.}
+
+
+\section{Schools and Conferences}
+\cventry{24-29 Jul 2023}{Strings 2023}{Waterloo}{}{}{Participating at the conference "Strings 2023" at Perimeter Institute} 
+\cventry{24-28 Apr 2023}{Eurostrings 2023}{Gijon}{}{}{Participating at the conference "Eusotrings 2023"}
+\cventry{11-13 Jan 2023}{Iberian Strings 2023}{Murcia}{}{}{Participating at the conference school "Iberian Strings 2023"}
+\cventry{20-22 Dec 2022}{XVIII Avogadro meeting on Strings, Supergravity and Gauge Theories}{Turin}{}{}{Partecipating at the 18th installment of the Avogadro meetings.}
+\cventry{16 Nov-26 Dec 2022}{LACES 2022}{Florence}{}{}{Partecipating at the Advanced Lectures on Fields and Strings doctoral school.}
+\cventry{21-27 August 2022}{CERN Winter School on Supergravity, Strings and Gauge Theory 2022}{Geneva}{}{}{Partecipating at the CERN school on Supergravity, Strings and Gauge theories. The main topic covered have been: conformal bootstrap, higher symmetries and defects, spectral theory for gauge and string theory, flux compactifications, holography.}
+\cventry{12-15 June 2022}{Theory of Fundamental Interactions INFN conference}{Venice}{}{}{Partecipating at the INFN conference Theory of Fundamental Interactions.}
+\cventry{9-13 May 2022}{ICTP Spring School on Superstring Theory and Related Topics}{Trieste}{}{}{Participating at the ICTP Spring School on Superstring Theory and Related Topics. The main topics covered have been: celestial holography, non-invertible symmetries, topological aspects of string theory and strings in $AdS_3$.}
+\cventry{23-25 March 2022}{Iberian Strings 2022}{Gijòn}{}{}{Participating at the conference school "Iberian Strings 2022"}
+
+\section{Highlights}
+\cventry{2020}{Honours Program}{Sapienza University}{Rome}{}{The Honours Programme is an advanced course providing additional training to the normal study programme. For this program, I followed an additional course at Tor Vergata University held by prof. Raffaele Savelli on group theory, representation theory of finite and Lie groups.}
+\cventry{2020}{Student Collaboration Scholarship}{Sapienza University}{Rome}{SoRT}{I won one of the 39 collaboration scholarships at the Physics department of Sapienza. All informations can be gathered from the official page https://www.uniroma1.it/en/pagina/student-collaboration-scholarships}
+\cventry{2017}{Member of the Italian Physical Society}{SIF}{}{}{I was invited to be a member of the Italian Physical Society (SIF) in my high-school for my results in the physical sciences.}
+
+\section{Languages}
+\cvitemwithcomment{Italian}{Mother tongue}{}
+\cvitemwithcomment{English}{Overall C2 level}{}
+%\cvitemwithcomment{French}{Overall A2 level}{}
+%\cvitemwithcomment{Language 3}{Skill level}{Comment}
+
+\section{Computer skills}
+\cvdoubleitem{Programming languages}{C, C++, Python}{Libraries:}{ROOT, Geant4, Scikit-learn, Tensorflow}
+\cvdoubleitem{Data analysis}{R, Gnuplot}{}{}
+\cvdoubleitem{Writing}{Office package, LaTeX}{}{}
+\cvdoubleitem{Misc}{Basic knowledge of machine learning}{}{}
+
+\section{List of publications}
+\cvitem{}{\small\textbf{Chiral dualities for SQCD}$_3$ \textbf{with D-type superpotential}, \textit{doi:10.1007/JHEP02(2023)032}}
+\cvitem{}{\small\textbf{New UTfit Analysis of the Unitarity Triangle in the Cabibbo-Kobayashi-Maskawa scheme}, \textit{doi:10.1007/s12210-023-01137-5}}
+\cvitem{}{\small\textbf{One-form symmetries in }$\mathbf{\mathcal{N}=3}$ \textbf{S-folds}, \textit{e-print:2303.07299}}
+\cvitem{}{\small\textbf{Sporadic dualities from tensor deconfinement }, \textit{e-print:2307.14146}}
+
+\iffalse
+\section{Exams and scores}
+\cvitem{Master Degree}{
+\begin{itemize}
+    \item Computing Methods for Physics (30 e lode/30)
+    \item Relativistic Quantum Mechanics (30/30)
+    \item Electroweak Interactions (30/30)
+    \item Quantum Electrodynamics (30/30)
+    \item Simmetrie ed interazioni fondamentali (30/30)
+    \item Quantum Field theory (30/30)
+    \item Weak Interactions in the Standard Model and Beyond (29/30)
+    \item Mathematical Physics (30/30)
+    \item Condensed Matter Physics (30/30)
+    \item General Relativity (30/30)
+    \item Physics laboratory I (HEP) (28/30)
+    \item Physics laboratory II (HEP) (30 e lode/30)
+    \item English language B2
+\end{itemize}
+}
+\cvitem{Bachelor Degree}{
+\begin{itemize}
+    \item Laboratorio di calcolo (30 e lode/30)
+    \item Laboratorio di meccanica (30/30)
+    \item Laboratorio di fisica computazionale (30/30)
+    \item Termodinamica e laboratorio (27/30)
+    \item Laboratorio di elettromagnetismo e circuiti (30/30)
+    \item Laboratorio di segnali e sistemi (30 e lode/30)
+    \item Ottica e laboratorio (28/30)
+    \item[]
+    \item Analisi (27/30)
+    \item Geometria (28/30)
+    \item Analisi vettoriale (22/30)
+    \item Modelli e metodi matematici della fisica (20/30)
+    \item[]
+    \item Meccanica (28/30)
+    \item Elettromagnetismo (27/30)
+    \item Meccanica Analitica e Relativistica (27/30)
+    \item Meccanica Statistica (18/30)
+    \item Meccanica Quantistica (30/30)
+    \item Fisca Nucleare e Subnucleare (30/30)
+    \item[]
+    \item Chimica (25/30)
+    \item Struttura della Materia (29/30)
+    \item[]
+    \item Istituzioni di Fisica Applicata (30/30)
+    \item Astronomia (30/30)
+\end{itemize}
+}
+\fi
+\iffalse
+\section{References}
+\begin{cvcolumns}
+  \cvcolumn{Names }{\begin{itemize}\item Guido Martinelli\item Roberto Bonciani  \item Shahram Rahatlou\end{itemize}}
+  \cvcolumn{E-mails}{
+\begin{itemize}
+    \item guido.martinelli@roma1.infn.it
+    \item roberto.bonciani@roma1.infn.it
+    \item shahram.rahatlou@uniroma1.it
+\end{itemize}
+  }
+\end{cvcolumns}
+\fi
+\section{\textbf{Signature}}{}
+
+
+\end{document}
+
+

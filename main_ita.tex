@@ -1,0 +1,177 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2015 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\usepackage{ascii}
+
+% moderncv themes
+\moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{orange}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
+\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                 
+% if you are not using xelatex ou lualatex, replace by the encoding you are using
+
+
+% adjust the page margins
+\usepackage[scale=0.80]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...% personal data
+\name{Davide}{Morgante}
+%\title{Resumé title}                               % optional, remove / comment the line if not wanted
+\address{Via Giorgio Bonelli, 37}{00172}{Roma (RM), Italia}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+\phone[mobile]{+39~393 6306114}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+%\phone[fixed]{+2~(345)~678~901}
+%\phone[fax]{+3~(456)~789~012}
+\email{davide.morgante96@gmail.com}  % optional, remove / comment the line if not wanted
+%\homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
+\social[linkedin]{davide-morgante}                        % optional, remove / comment the line if not wanted
+%\social[twitter]{jdoe}                             % optional, remove / comment the line if not wanted
+%\social[github]{jdoe}                              % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+\photo[100pt][0.3pt]{picture.jpeg}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% bibliography adjustements (only useful if you make citations in your resume, or print a list of publications using BibTeX)
+%   to show numerical labels in the bibliography (default is to show no labels)
+\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+%   to redefine the bibliography heading string ("Publications")
+%\renewcommand{\refname}{Articles}
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Formazione}
+\cventry{2019-}{Laurea Magistrale}{Sapienza Università di Roma}{}{}{Corso di laurea magistrale in fisica teorica, specializzazione in fisica delle alte energie.}
+\cventry{2016-2019}{Laurea in Fisica}{Sapienza università di Roma}{}{\textit{110/110 e Lode}}{}  % arguments 3 to 6 can be left empty
+\cventry{2010-2016}{Diploma di maturità scientifica}{Liceo scientifico Francesco d'Assisi}{Roma}{\textit{94/100}}{}
+
+\section{Tesi Triennale}
+\cvitem{Titolo}{\emph{Ampiezze semiclassiche di transizione}}
+\cvitem{Relatore}{Prof. Guido Martinelli}
+\cvitem{Descrizione}{Nella mia tesi triennale, di stampo puramente teorico, si è calcolato uno dei fattori dell'ampiezza di transizione di stati vuoto metastabili indotti da processi di rottura spontanea di simmetria. Si è inoltre sviluppato tutto il formalismo matematico e fisico per la suddetta analisi: integrazione funzionale e formulazione di Feynman della meccanica quantistica, tunneling quantistico e teoria classica di un campo scalare come proprietà emergente delle eccitazioni collettive di un sistema a molti gradi di libertà.}
+
+\section{Tesi Magistrale}
+\cvitem{Titolo}{\emph{Ancora non concordato}}
+\cvitem{Relatore}{Prof. Guido Martinelli, Prof. Marco Nardecchia}
+\cvitem{Descrizione}{Il lavoro di tesi magistrale è ancora in via di sviluppo. Andrò a lavorare con la collaborazione UTfit sulle violazioni di simmetria CP nei processi di decadimento dei Kaoni ed in particolare nell'implementazione dei parametri $\epsilon$ ed $\epsilon^\prime/\epsilon$ nell'analisi di UTfit.}
+
+
+\section{Esperienze}
+\cventry{2020}{Borsa di collaboraziome}{Università Sapienza}{Roma}{}{Sono risultato vincitore di una delle borse di collaborazione per studenti meritevoli presso l'università La Sapienza.}
+\cventry{2015}{Summer-school}{INFN-LNF}{Roma}{}{Summer-School per studenti meritevoli presso i laboratori nazionali di Frascati.\newline{}%
+Aromenti trattati:%
+\begin{itemize}%
+    \item Nozioni di base di meccanica quantistica
+    \item Nozioni di base di fisica delle astroparticelle
+    \item Nozioni di base di programmazione di reti neurali in C++
+\end{itemize}}
+\cventry{2014}{Masterclass}{IPPOG - Università di Roma Tre}{Roma}{}{Masterclass di fisica delle particelle per studenti liceali. \newline{}%
+Argomenti trattati:%
+\begin{itemize}%
+    \item Fisica delle particelle e Modello Standard
+    \item Esperimenti di fisica delle particelle
+\end{itemize}
+Esperienza pratica
+\begin{itemize}
+    \item Identificazione e misure del decadimento dei bosoni W da dati raccolti da LHC usando il programma di analisi Minerva.
+\end{itemize}}
+
+\section{Lingue}
+\cvitemwithcomment{Italiano}{Madrelingua}{}
+\cvitemwithcomment{Inglese}{Livello B2}{}
+%\cvitemwithcomment{Language 3}{Skill level}{Comment}
+
+\section{Computer skills}
+\cvdoubleitem{Linguaggi}{C, C++, Python, MatLab}{Pacchetti:}{ROOT, Geant4, Scikit-learn}
+\cvdoubleitem{Analisi dati}{R, Gnuplot}{}{}
+\cvdoubleitem{Scrittura}{Pacchetto office, LaTeX}{}{}
+\cvdoubleitem{Miscellanea}{Basi di Machine Learning}{}{}
+
+\section{Firma}
+
+\iffalse
+\section{Interessi}
+\cvitem{Pianoforte}{Suono il pianoforte, a livello amatoriale, da più di dieci anni. \`E una passione che pratico tutt'ora, meno di quanto vorrei.}
+\cvitem{Elettronica}{La passione per l'elettronica è nata negli ultimi anni di liceo. Durante il percorso universitario è diventata parte integrante del mio percorso di studi in quanto l'elettronica analogica e digitale sono un capisaldo della fisica sperimentale delle particelle.}
+\cvitem{Parkour}{Pratico questo sport, a livello amatoriale, da poco meno di un anno.}
+
+
+\section{Extra 1}
+\cvlistitem{Item 1}
+\cvlistitem{Item 2}
+\cvlistitem{Item 3. This item is particularly long and therefore normally spans over several lines. Did you notice the indentation when the line wraps?}
+
+\section{Extra 2}
+\cvlistdoubleitem{Item 1}{Item 4}
+\cvlistdoubleitem{Item 2}{Item 5\cite{book1}}
+\cvlistdoubleitem{Item 3}{Item 6. Like item 3 in the single column list before, this item is particularly long to wrap over several lines.}
+
+\section{References}
+\begin{cvcolumns}
+  \cvcolumn{Category 1}{\begin{itemize}\item Person 1\item Person 2\item Person 3\end{itemize}}
+  \cvcolumn{Category 2}{Amongst others:\begin{itemize}\item Person 1, and\item Person 2\end{itemize}(more upon request)}
+  \cvcolumn[0.5]{All the rest \& some more}{\textit{That} person, and \textbf{those} also (all available upon request).}
+\end{cvcolumns}
+
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+\clearpage
+%-----       letter       ---------------------------------------------------------
+% recipient data
+\recipient{Company Recruitment team}{Company, Inc.\\123 somestreet\\some city}
+\date{January 01, 1984}
+\opening{Dear Sir or Madam,}
+\closing{Yours faithfully,}
+\enclosure[Attached]{curriculum vit\ae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+\makelettertitle
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper neque sit amet lectus facilisis sed luctus nisl iaculis. Vivamus at neque arcu, sed tempor quam. Curabitur pharetra tincidunt tincidunt. Morbi volutpat feugiat mauris, quis tempor neque vehicula volutpat. Duis tristique justo vel massa fermentum accumsan. Mauris ante elit, feugiat vestibulum tempor eget, eleifend ac ipsum. Donec scelerisque lobortis ipsum eu vestibulum. Pellentesque vel massa at felis accumsan rhoncus.
+
+Suspendisse commodo, massa eu congue tincidunt, elit mauris pellentesque orci, cursus tempor odio nisl euismod augue. Aliquam adipiscing nibh ut odio sodales et pulvinar tortor laoreet. Mauris a accumsan ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse vulputate sem vehicula ipsum varius nec tempus dui dapibus. Phasellus et est urna, ut auctor erat. Sed tincidunt odio id odio aliquam mattis. Donec sapien nulla, feugiat eget adipiscing sit amet, lacinia ut dolor. Phasellus tincidunt, leo a fringilla consectetur, felis diam aliquam urna, vitae aliquet lectus orci nec velit. Vivamus dapibus varius blandit.
+
+Duis sit amet magna ante, at sodales diam. Aenean consectetur porta risus et sagittis. Ut interdum, enim varius pellentesque tincidunt, magna libero sodales tortor, ut fermentum nunc metus a ante. Vivamus odio leo, tincidunt eu luctus ut, sollicitudin sit amet metus. Nunc sed orci lectus. Ut sodales magna sed velit volutpat sit amet pulvinar diam venenatis.
+
+Albert Einstein discovered that $e=mc^2$ in 1905.
+
+\[ e=\lim_{n \to \infty} \left(1+\frac{1}{n}\right)^n \]
+
+\makeletterclosing
+
+%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+
+\fi
+\end{document}
+
+
+%% end of file `template.tex'.
