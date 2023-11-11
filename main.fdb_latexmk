@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1695032746 "/Users/davidemorgante/Documents/GitHub/CV/main.tex" "main.pdf" "main" 1695032747
-  "/Users/davidemorgante/Documents/GitHub/CV/main.tex" 1695032746 13085 c618228c03cc22281c67ef8e697ddb2a ""
+["pdflatex"] 1699439830 "/Users/davidemorgante/Documents/GitHub/CV/main.tex" "main.pdf" "main" 1699439831
+  "/Users/davidemorgante/Documents/GitHub/CV/main.tex" 1699439830 13174 1532e1457eda2a5e2fde79d193610918 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463430686 2679 32dd8ae231bf4a0752b98f62dc097183 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
@@ -134,9 +134,9 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1654776931 2826427 fc799ae41b8d6d1650d264ae095bc8a7 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "main.aux" 1695032746 1757 0cb441476db71dbd672214998a61640b "pdflatex"
-  "main.out" 1695032746 1203 4780518c1c0a52e52bdedf37b030368d "pdflatex"
-  "main.tex" 1695032746 13085 c618228c03cc22281c67ef8e697ddb2a ""
+  "main.aux" 1699439831 1757 0cb441476db71dbd672214998a61640b "pdflatex"
+  "main.out" 1699439831 1203 4780518c1c0a52e52bdedf37b030368d "pdflatex"
+  "main.tex" 1699439830 13174 1532e1457eda2a5e2fde79d193610918 ""
   "moderncv.cls" 1692781640 30297 ad584226c88e6533f6016194ced2d15c ""
   "moderncvbodyi.sty" 1692781640 7263 b0eec674e8a364780faf2f7d5efa2dbe ""
   "moderncvcollection.sty" 1692781640 3390 d797a6d60ef49f5acd2d573a9a4ba418 ""
@@ -146,7 +146,7 @@
   "moderncvheadii.sty" 1692781642 9743 e1a31c74236f4c6d34bab2eb68cb5120 ""
   "moderncviconsawesome.sty" 1692781642 2347 99bf15736c77083d5102a5c6e7d00414 ""
   "moderncvstylecasual.sty" 1692781642 1977 d24806b061f83679cea0ca3c6e892dfc ""
-  "picture.jpg" 1692781642 908279 9f8cff6a66d4951969a31b42efffc680 ""
+  "picture.jpg" 1697111988 61044 ef8bb3bf63681c2b683658d631efc5c8 ""
   "tweaklist.sty" 1692781642 1966 8ce3a021c0bc6369db88faeddf828d71 ""
   (generated)
   "main.aux"
