@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.9)  8 NOV 2023 11:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.9)  21 NOV 2023 15:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -218,8 +218,8 @@ Package: moderncvfooti 2015/07/28 v2.0.0 modern curriculum vitae and letter foot
 \footbox=\box57
 \foottempbox=\box58
 \footboxwidth=\skip83
-)) (./moderncvcolororange.sty
-Package: moderncvcolororange 2015/07/28 v2.0.0 modern curriculum vitae and letter color scheme: orange
+)) (./moderncvcolorpink.sty
+Package: moderncvcolorpink 2015/07/28 v2.0.0 modern curriculum vitae and letter color scheme: pink
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks20
@@ -460,11 +460,11 @@ LaTeX Info: Redefining \nameref on input line 56.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 56.
 \makecvheadpicturebox=\box60
-<picture.jpg, id=49, 448.67625pt x 616.3025pt>
+<picture.jpg, id=53, 1166.3575pt x 1153.30875pt>
 File: picture.jpg Graphic file (type jpg)
 <use picture.jpg>
 Package pdftex.def Info: picture.jpg  used on input line 59.
-(pdftex.def)             Requested size: 100.0pt x 137.35492pt.
+(pdftex.def)             Requested size: 150.0pt x 148.31638pt.
 \makecvheadpicturewidth=\skip86
 \makecvheadnamebox=\box61
 
@@ -499,13 +499,13 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 
 LaTeX Font Warning: Font shape `U/fontawesometwo/m/sl' undefined
-(Font)              using `U/fontawesometwo/m/n' instead on input line 82.
+(Font)              using `U/fontawesometwo/m/n' instead on input line 88.
 
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 82.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 88.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 82.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 88.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -517,12 +517,14 @@ Package fancyhdr Warning: \footskip is too small (30.0pt):
 [1
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./picture.jpg>]
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 119.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 97.
+(Font)              <10> on input line 152.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 97.
+(Font)              <7> on input line 152.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 97.
+(Font)              <5> on input line 152.
 
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
@@ -530,34 +532,41 @@ Package fancyhdr Warning: \footskip is too small (30.0pt):
 (fancyhdr)                \setlength{\footskip}{56.03203pt}.
 
 [2]
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 111.
+Underfull \hbox (badness 10000) in paragraph at lines 164--164
+[]|\T1/lmss/bx/n/10.95 (+20) Chiral du-al-i-ties for SQCD$[]$ with D-type su-per-po-ten-tial\T1/lmss/m/n/10.95 (+20) , []\T1/lmss/m/sl/10.95 (+20) JHEP[]\T1/lmss/m/n/10.95 (+20) ,
+ []
 
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
 (fancyhdr)                Make it at least 56.03203pt, for example:
 (fancyhdr)                \setlength{\footskip}{56.03203pt}.
 
-[3] (./main.aux)
+[3]
+
+Package fancyhdr Warning: \footskip is too small (30.0pt): 
+(fancyhdr)                Make it at least 56.03203pt, for example:
+(fancyhdr)                \setlength{\footskip}{56.03203pt}.
+
+[4] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4780518C1C0A52E52BDEDF37B030368D;1203.
+(rerunfilecheck)             Checksum: 7870A34F704E50BBD346797DE9A738F4;1338.
  ) 
 Here is how much of TeX's memory you used:
- 14257 strings out of 478268
- 230717 string characters out of 5846348
- 562938 words of memory out of 5000000
- 32095 multiletter control sequences out of 15000+600000
- 555133 words of font info for 134 fonts, out of 8000000 for 9000
+ 14272 strings out of 478268
+ 230849 string characters out of 5846348
+ 564937 words of memory out of 5000000
+ 32103 multiletter control sequences out of 15000+600000
+ 558183 words of font info for 137 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,13n,77p,1043b,481s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmro10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on main.pdf (3 pages, 295455 bytes).
+ 70i,14n,77p,1043b,474s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmro10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
+Output written on main.pdf (4 pages, 558866 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
- 120 compressed objects within 2 object streams
- 15 named destinations out of 1000 (max. 500000)
- 53342 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 190 PDF objects out of 1000 (max. 8388607)
+ 142 compressed objects within 2 object streams
+ 17 named destinations out of 1000 (max. 500000)
+ 55398 words of extra memory for PDF output out of 61914 (max. 10000000)
 
