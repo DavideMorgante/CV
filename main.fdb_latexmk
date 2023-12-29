@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1700731126 "/Users/davidemorgante/Documents/GitHub/CV/main.tex" "main.pdf" "main" 1700731126
-  "/Users/davidemorgante/Documents/GitHub/CV/main.tex" 1700731125 14688 1e0a1b8176ba948fc269122032544d81 ""
+["pdflatex"] 1703692728 "/Users/davidemorgante/Documents/GitHub/CV/main.tex" "main.pdf" "main" 1703692729
+  "/Users/davidemorgante/Documents/GitHub/CV/main.tex" 1703692727 14988 20493939e3d4f153eccbe035cbc1370d ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463430686 2679 32dd8ae231bf4a0752b98f62dc097183 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
@@ -137,9 +137,9 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1654776931 2826427 fc799ae41b8d6d1650d264ae095bc8a7 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "main.aux" 1700731126 1859 a378967aa88d4e823f6693bb8800346c "pdflatex"
-  "main.out" 1700731126 1338 7870a34f704e50bbd346797de9a738f4 "pdflatex"
-  "main.tex" 1700731125 14688 1e0a1b8176ba948fc269122032544d81 ""
+  "main.aux" 1703692729 1859 9298ab14eb6ab46be496c101b39df3ef "pdflatex"
+  "main.out" 1703692729 1338 7870a34f704e50bbd346797de9a738f4 "pdflatex"
+  "main.tex" 1703692727 14988 20493939e3d4f153eccbe035cbc1370d ""
   "moderncv.cls" 1692781640 30297 ad584226c88e6533f6016194ced2d15c ""
   "moderncvbodyi.sty" 1692781640 7263 b0eec674e8a364780faf2f7d5efa2dbe ""
   "moderncvcollection.sty" 1692781640 3390 d797a6d60ef49f5acd2d573a9a4ba418 ""
